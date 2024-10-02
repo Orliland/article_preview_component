@@ -129,8 +129,13 @@ body {
   background-color: var(--desaturated-dark-blue);
 }
 
+.share:hover img {
+  filter: brightness(100);
+}
+
 /* INTERACTIVE ELEMENT */
 .popup {
+  visibility: hidden;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -163,17 +168,24 @@ body {
   display: inline-block;
 }
 
+.popup__button:hover {
+  cursor: pointer;
+  filter: invert(1);
+}
+
 .popup__button img {
   display: block;
   width: 2rem;
 }
 
-/* TODO: Styles for share button, include z-index for pop up */
-
-/* .share {
+/* Styles for share activate */
+.share--active {
+  z-index: 3;
+  position: relative;
+  top: 0.8rem;
   background-color: var(--desaturated-dark-blue);
 }
 
-.share img {
+.share--active img {
   filter: brightness(100);
-} */
+}

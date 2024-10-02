@@ -57,3 +57,7 @@
   border-right: 1.2rem solid transparent;
   border-top: 1.25rem solid var(--very-dark-grayish-blue);
 }
+
+.share--active {
+  top: 0;
+}
