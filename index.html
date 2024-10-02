@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./desktop.css" media="(min-width: 778px)" />
     <script defer src="./main.js"></script>
   </head>
   <body>
@@ -23,33 +24,35 @@
           alt="Article thumbnail"
         />
       </header>
-      <main class="article__body">
-        <h1 class="article__title">
-          Shift the overall look and feel by adding these wonderful touches to
-          furniture in your home
-        </h1>
-        <p class="article__description">
-          Ever been in a room and felt like something was missing? Perhaps it
-          felt slightly bare and uninviting. I’ve got some simple tips to help
-          you make any room feel complete.
-        </p>
-      </main>
-      <footer class="article__footer">
-        <img
-          class="article__author"
-          src="./images/avatar-michelle.jpg"
-          alt="Author profile photo"
-        />
-        <div class="article__author-data">
-          <span class="article__author-name">Michelle Appleton</span>
-          <span class="article__author-date">28 Jun 2020</span>
-        </div>
-        <a href="#" class="article__share">
-          <img src="./images/icon-share.svg" alt="share button" />
-        </a>
+      <div class="article__wrapper">
+        <main class="article__body">
+          <h1 class="article__title">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p class="article__description">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </main>
+        <footer class="article__footer">
+          <img
+            class="article__author"
+            src="./images/avatar-michelle.jpg"
+            alt="Author profile photo"
+          />
+          <div class="article__author-data">
+            <span class="article__author-name">Michelle Appleton</span>
+            <span class="article__author-date">28 Jun 2020</span>
+          </div>
+          <a href="#" class="article__share">
+            <img src="./images/icon-share.svg" alt="share button" />
+          </a>
 
-        <!-- TODO: add popup share component -->
-      </footer>
+          <!-- TODO: add popup share component -->
+        </footer>
+      </div>
     </article>
   </body>
 </html>

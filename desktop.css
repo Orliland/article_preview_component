@@ -1,0 +1,33 @@
+.article {
+  display: flex;
+  max-width: 73rem;
+}
+
+.article__thumb {
+  display: block;
+  width: 28.5rem;
+  aspect-ratio: 3/2.94;
+
+  object-fit: cover;
+}
+
+.article__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3.2rem 4rem;
+}
+
+.article__body,
+.article__footer {
+  padding: 0;
+}
+
+.article__title {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.025rem;
+}
+
+.article__description {
+}

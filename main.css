@@ -27,6 +27,7 @@ body {
 }
 
 .article {
+  max-width: 45rem;
   border-radius: 1rem;
 
   background-color: #ffffff;
