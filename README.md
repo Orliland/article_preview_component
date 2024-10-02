@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Repository](https://github.com/Orliland/article_preview_component)
-- Live Site URL: [live site](https://orli.github.io/article_preview_component)
+- Live Site URL: [live site](https://orliland.github.io/article_preview_component)
 
 ## My process
 
